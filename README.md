@@ -35,9 +35,9 @@ Appendix I: who.sh
 ```shellscript
 while 1
 do
-who	>> ~/tmp/whostat.txt
-sleep 30*3600 # every half an hour, adjustable
-date	>> ~/tmp/whostat.txt
-echo "" >> ~/tmp/whostat.txt
+	who	>> ~/tmp/whostat.txt
+	sleep 30*3600 # every half an hour, adjustable
+	date	>> ~/tmp/whostat.txt
+	echo "" >> ~/tmp/whostat.txt
 done
 ```
